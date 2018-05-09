@@ -1,0 +1,27 @@
+Datacenter cisco
+key perf
+Assyst
+TDD
+
+Durant tout notre cursus à l'EPHEC, de nombreuses conférences sur des sujets très variés ont été organisés en dehors du cadre des cours. Je pense qu'il aurait bête de ne pas en profiter et il fut en effet très intéressant d'écouter de nombreuses personnes venir parler de leur métier, de leur domaine précis et nous ouvrir encor eu peu plus l'esprit sur ce qu'il existait en dehors de l'école. Ici nous détaillerons quelques unes de ces conférences.
+
+Programme Incubator CISCO, Technologies utilisées dans les datacenter - 28/09/2017
+
+Ce sont deux intervenants de l'entreprise CISCO qui sont venus nous présenter en même temps les possibilités de carrière chez CISCO mais également les techologies présentes dans les datacenter. Ils nous ont présentés la série de Switch "Nexus" et son historique : du Nexus 7000 (2008) créé pour être utilisé en datacenter pour gérer la quantité de donnée au Nexus 9000 (2011) permettant un réseau entièrement configurable et qui peut s'adapter de lui-même en passant par le 3000 (2011) utilisé pour le "stock trading", pour gérer les transactions à grande vitesse. Le Nexus permet de bénéficier d'une grande bande passante et est donc idéal en Datacenter. Ils sont ensuite passés sur le concept de "FabricPath" qui permet gràce au Nexus de "transformer" une structure complexe en 1 seule gros switch logique sur lequel on peut brancher ce que l'on veut. La conférence s'est finie en abordant l'"Overlay Transport Virtualization" utile pour connecter des sites distants comme si ils n'étaient pas distants justement et le "Software Define Network" qui comme son nom l'indique permet de gérer un réseau à un niveau plus élevé, de facon plus abstraite.
+
+Key performance
+10/10/2017
+
+Ce jour là nous nous sommes retrouvé dans un auditoire de l'UCL pour écouter un représentant de "Key performance" (http://www.key-performance.eu/), entreprise spécialisée dans la performance de site web. Selon eux, pour un site web, tout ce qui compte commence avec l'utilisateur et finit seulement par les problèmes de technologies, ce qui compte avant tout c'est la personne en bout de chaine.
+Nous sommes passés ensuite par plusieurs points structurant la présentation. Tout d'abord ,nous avons abordé la vitesse : mesurable par des outils, il en existe plusieurs intéressantes ( temps de chargement, temps d'interactivité de la page, temps d'affichage, ... ) la vitesse se révèle être un lien idéal entre les "IT" et le "Business" (les gens du marketing) car il est possible de se mettre d'accord sur des valeurs à atteindre, claire et objectives. Vient ensuite la notion de temps, qui à l'inverse de la vitesse est une perception, non-mesurable, non régie par des règles, il faut utiliser des trucs et astuces pour gérer ce temps (barre de chargement, loader, ...) et surtout faire attention à ne pas aller trop vite non plus, l'utilisateur ayant l'impression qu'il ne peut arriver quelque chose aussi vite aura plus confiance si il a du attendre un minimum ... Le point suivant a été l'impact des performances: impact sur l'utilisateur final, sur le référencement de Google, sur le nombre de visite, ... ce qui est intéressant c'est qu'il semble plus intéressant d'avoir un site down qu'un site lent : les gens reviendrait plus dans le premier cas. La présentation s'est ensuite tournée vers le besoin des départements marketing d'avoir des métriques claires à utilisés afin de pouvoir parler plus clairement aux IT mais aussi d'avoir une facon plus claire d'évaluer l'impact des investissements. Les derniers point abordés ont été les différents indicateurs clé de performance de performance et sur les outils de mesure disponibles pour évaluer ces indicateurs. Cette conférence fut réellement très intéressante, les performances, loin d'être juste un atout technique ou un score pour frimer sont réellement essentielles et ont un rôle bien plus grand à jouer dans le développement et la vie d'un site web.
+
+Présentation du stage proposé chez Assyst Europe
+9/11/2017
+
+
+
+Selinko - présentation de stage et conférence sur le Test Driven Development
+29/09/2016
+
+Cette conférence a eu lieu lors de notre 2e année à l'EPHEC, la conférence était destinée au troisième mais certain d'entre nous ont pu s'y faufiler quand même. L'entreprise Selinko située dans l'Axis Parc est venu nous parler de "Test Driven Development" en application chez eux. Grâce à la technologie de "Near Field Communication", ils travaillent sur l'anti-contrefacon de biens. Grâce à des tags ultra-sécurisé et des protections softwares ils arrivent à donner à chaque objet un identifiant unique. Cet identifiant offre la possibilités d'y intégrer des services pour le consommateur, pour la marque ou à la vente en ligne.
+Pour nous parler du TDD, il nous ont d'abord présentés les raisons du "pourquoi" tester et il y en a beaucoup : avoir confiance en son code, permet de refactorer plus facilement ou du moins avec plus de sécurité, documente une partie du code tout seul, prouver au client que ça marche et bien d'autres ... Seulement ce n'est pas une solution miracle, en effet l'envirronement de production a toujours son mot dire pour et le test doit être d'un bon niveau pour pouvoir prévoir tout ce qu'il pourrait arriver. Le TDD consiste alors à écrire les test en avances, de réaliser une "boite noire" à deux entrées qui définit une valeur en entrée et une valeur en sortie. En codant à partir de là, on réduit le nombre de fonctionnalités inutiles et on s'assure que l'entiereté de son code est testé !
