@@ -1,0 +1,48 @@
+/* HOME STYLE
+ -----------------------------------------------------------------------------*/
+ .home__content__img {
+  /* background: url('../assets/home__bg.jpg') no-repeat center / cover; */
+  max-width: 500px;
+  margin: 100px auto 0;
+}
+
+.home__content {
+  font-size: 1.5rem;
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.home__content__logo {
+  font-size: 4rem;
+  margin-bottom: 30px;
+}
+
+.home__content__menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.home__content__menu__item {
+  text-decoration: none;
+  color: var(--dark);
+  transition: color .2s;
+  position: relative;
+}
+
+.home__content__menu__item:hover {
+  color: var(--hover);
+}
+
+.home__content__menu__item:after {
+  content: "~";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 20px;
+  transition: transform .2s;
+}
+
+.home__content__menu__item:hover:after {
+  transform: translate(-50%, 5px);
+}
