@@ -11,7 +11,7 @@
   --conf: #FFF89D;
 }
  body {
-  font-family: 'Zilla Slab', serif;
+  font-family: 'Zilla Slab', monospace;
   color: var(--dark);
   margin: 0;
   font-size: 1.2rem;

@@ -4,6 +4,10 @@
   margin-bottom: 10px;
 }
 
+div.portfolio__detail__texte + .title--md {
+  margin-top: 50px;
+}
+
 .portfolio__detail__date {
   font-size: 1rem;
   color: var(--hover);
@@ -58,4 +62,14 @@ a:hover {
 
 .portfolio__detail__preuve__links__item:hover:after {
   transform: translateX(3px);
+}
+
+.portfolio__detail__preuve__gallery {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr) ) ;
+  margin-top: 30px;
+}
+.portfolio__detail__preuve__gallery > img {
+  max-width: 100%;
 }
