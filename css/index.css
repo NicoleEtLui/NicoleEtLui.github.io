@@ -1,0 +1,55 @@
+
+
+
+
+/* COMMON STYLES BETWEEN PAGES
+ -----------------------------------------------------------------------------*/
+ :root {
+  --hover: #DFA491;
+  --dark: #242529;
+}
+ body {
+  font-family: 'Zilla Slab', serif;
+  color: var(--dark);
+}
+
+.siteWrap {
+  max-width: 1080px;
+  margin: 0 15px;
+}
+
+
+/* HOME STYLE
+ -----------------------------------------------------------------------------*/
+.home__content__img {
+  /* background: url('../assets/home__bg.jpg') no-repeat center / cover; */
+  max-width: 500px;
+  margin: 100px auto 0;
+}
+
+.home__content {
+  font-size: 1.5rem;
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.home__content__logo {
+  font-size: 4rem;
+  margin-bottom: 30px;
+}
+
+.home__content__menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.home__content__menu__item {
+  text-decoration: none;
+  color: var(--dark);
+  transition: color .2s;
+}
+
+.home__content__menu__item:hover {
+  color: var(--hover);
+}
