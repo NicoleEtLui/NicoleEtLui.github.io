@@ -8,6 +8,7 @@
   --hover: #DFA491;
   --dark: #242529;
   --blue: #9CE0F7;
+  --conf: #FFF89D;
 }
  body {
   font-family: 'Zilla Slab', serif;
@@ -70,6 +71,10 @@ p {
 .title--md {
   font-weight: 600;
   font-size: 1.5rem;
+}
+
+.text--highlight {
+  font-weight: 600;
 }
 
 .header {

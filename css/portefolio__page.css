@@ -1,0 +1,27 @@
+/* PORTFOLIO PAGES COMMON STYLE
+  --------------------------------------------------------------------------- */
+.title--md {
+  margin-bottom: 10px;
+}
+
+.portfolio__detail__date {
+  font-size: 1rem;
+  color: var(--hover);
+  margin-bottom: 30px;
+}
+
+.portfolio__detail__texte {
+  line-height: 24px;
+}
+
+a.link {
+  text-decoration: none;
+  border-bottom: 1px solid var(--dark);
+  color: var(--dark);
+  transition: color .2s, border-color .2s;
+}
+
+a:hover {
+  color: var(--hover);
+  border-color: var(--hover);
+}
