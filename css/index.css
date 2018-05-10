@@ -28,6 +28,8 @@ p {
 .page__menu {
   display: flex;
   flex-direction: column;
+  position: sticky;
+  top: 15px;
 }
 
 .page__menu__item {
@@ -88,8 +90,6 @@ p {
   float: left;
   width: 19.1489%;
   padding: 20px 0;
-  position: sticky;
-  top: 15px;
 }
 
 .content {
