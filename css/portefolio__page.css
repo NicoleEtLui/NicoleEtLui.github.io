@@ -11,7 +11,7 @@
 }
 
 .portfolio__detail__texte {
-  line-height: 24px;
+  line-height: 28px;
 }
 
 a.link {
@@ -24,4 +24,38 @@ a.link {
 a:hover {
   color: var(--hover);
   border-color: var(--hover);
+}
+
+.portfolio__detail__preuve__links {
+  margin-top: 30px;
+}
+
+.portfolio__detail__preuve__links__item {
+  text-decoration: none;
+  color: var(--dark);
+  padding-left: 20px;
+  position: relative;
+  transition: color .2s;
+  font-weight: 600;
+  font-size: 1rem;
+  display: block;
+}
+
+.portfolio__detail__preuve__links__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.portfolio__detail__preuve__links__item:hover {
+  color: var(--hover);
+}
+
+.portfolio__detail__preuve__links__item:after {
+  content: ">";
+  position: absolute;
+  left: 0;
+  transition: transform .2s;
+}
+
+.portfolio__detail__preuve__links__item:hover:after {
+  transform: translateX(3px);
 }
