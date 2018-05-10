@@ -1,0 +1,53 @@
+/* PORTFOLIO RESUME STYLE
+  --------------------------------------------------------------------------- */
+.title--md {
+  margin-bottom: 30px;
+}
+.portfolio__content__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid var(--hover);
+}
+
+.portfolio__card {
+  display: flex;
+  flex-direction: column;
+  grid-column: auto / span 1;
+  background: var(--hover);
+  text-decoration: none;
+  color: var(--dark);
+}
+
+.portfolio__card__top {
+  padding: 15px 15px 30px;
+}
+
+.portfolio__card__title {
+  margin-bottom: 5px;
+  /* color: #fff; */
+}
+.portfolio__card__date {
+  font-size: .8rem;
+}
+.portfolio__card__hours {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(20, 20,20, .2);
+  margin-top: auto;
+  padding: 15px;
+}
+
+.portfolio__card__hours__label {
+  font-size: 1rem;
+}
+.portfolio__card__hours__number {
+  font-weight: 600;
+  color: #fff;
+}
+
+.portefolio__result {
+  text-align: right;
+}
